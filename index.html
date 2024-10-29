@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<div class="container">
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Salud Mental</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="app.js"></script>
+</head>
+<body>
+
+  <header>
+    <h1>Plataforma de Apoyo para Salud Mental</h1>
+
+  </header>
+
+  <main>
+    <section id="mood-section">
+      <h2>Registro de Estado Emocional</h2>
+      <select id="mood-select">
+        <option value="">Selecciona tu emoción...</option>
+        <option value="feliz">Feliz</option>
+        <option value="triste">Triste</option>
+        <option value="ansioso">Ansioso</option>
+        <option value="estresado">Estresado</option>
+        <option value="enojado">Enojado</option>
+      </select>
+      <button id="save-mood">Guardar Estado</button>
+      <div id="mood-info"></div>
+    </section>
+    
+    <section id="relaxation-section">
+      <h2>Ejercicios de Relajación</h2>
+      <button id="start-relaxation">Iniciar Ejercicio</button>
+      <p id="relaxation-exercise"></p> <!-- Aquí se mostrarán los ejercicios de relajación -->
+    </section>
+    
+    <section id="chat-section">
+      <h2>Chat Anónimo</h2>
+      <div id="chat-container"></div>
+      <input type="text" id="chat-message" placeholder="Escribe un mensaje">
+      <button id="send-message">Enviar</button>
+    </section>
+    <h3 id="random-message">Cada gran héroe tiene un comienzo humilde. Spiderman.</h3>
+  </main>
+
+  <img src="amsiedad.png" alt="Apoyo emocional" class="corner-image" onclick="openMemeGallery()">
+  <img src="images/hue.png" alt="Contacto" class="corner-image2" id="random-message-trigger">
+
+</body>
+</div>
+</html>
