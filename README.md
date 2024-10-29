@@ -7,7 +7,7 @@ ABEL ALEXANDER DE LEON LIMA
 ALLAN FRANCISCO MOISES CHACLÁN GUINEA
 
 
-descripcion general: Para la realizaon
+descripcion general: Este proyecto fue desarrollado con el objetivo de crear un espacio en el que los usuarios puedan expresarse libremente y ser escuchados. La plataforma está diseñada para fomentar la comunicación, proporcionando herramientas que faciliten la interacción y la participación activa de la comunidad. El proyecto busca crear un entorno inclusivo donde cada voz pueda tener un impacto y sentirse valorada.
 
 
 Explicacion de las tecnologias: 
@@ -18,4 +18,5 @@ JavaScript: Es un puente de conexion entre HTML, TypeScript y CSS, permitiendo u
 
 
 Funcionalizacion Implementacion:
+
 
